@@ -1,0 +1,27 @@
+div {
+    width: 30%;
+    height: 200px;
+    border: 1px solid coral;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+div.visible {
+	overflow: visible;
+	background: orange;
+}
+
+div.hidden {
+	overflow: hidden;
+	background: yellow;
+}
+
+div.auto {
+	overflow: auto;
+	background: green;
+}
